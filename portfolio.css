@@ -1,0 +1,233 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 200px;
+}
+body{
+    font-family: 'lato', sans-serif;
+    font-family: 'open',sans-serif;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800px;
+}
+.tanu{
+    color: #fd6e0a;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* #contact_btn{
+    background-color: snow;
+    border-color: #fd6e0a;
+    border: 5px;
+} */
+
+.btn_primary{
+    text-align: center;
+    background-color: #fd6e0a;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    border: 0px;
+}
+button:hover{
+    background-color: #b61f60;
+
+}
+/* header_class  */
+
+.header_class{
+    /* background-color: #fff8f3; */
+    background-image: url('../wev_developer_portfolio/images/header_bg.png'),url('../wev_developer_portfolio/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left ;
+    
+    
+}
+
+.banner{
+    padding: 50px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 200px; */
+    
+}
+
+.banner-content{
+    max-height: 500px;
+}
+.banner.profilepic{
+    width: 500px;
+}
+.profilepic{
+    height: 640px;
+    width: 700px;
+    
+    
+}
+.banner-greting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner_title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner_discription{
+    height: 60px;
+    width: 560px;
+   
+}
+/* main  */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+main section
+{
+    margin-top: 130px;
+}
+/* section */
+.about-me{
+    
+    /* padding: 130px; */
+    border-radius: 20px;
+    background: #fff8f3;
+    margin: 130px 0px;
+   
+    
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+.section-description{
+
+    color:#474747;
+    text-align: center;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+/* about-info-container */
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #474747;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info-description{
+    font-weight: bold;
+}
+/* skill  related */
+.skills-container{
+    display: flex;
+    
+    gap: 24px;
+
+}
+.skill-description{
+color: #757575;
+    
+}
+.skils{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,0.8);
+    
+}
+#what-i-do-descripton{
+    padding: 30px 150px;
+}
+
+/* resume-coloume-title */
+
+.resume-coloume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: normal;
+}
+.resume-item-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    
+}
+.resume-item-intitute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+.resume-item-description, .resume-item-intitute{
+    color: #757575;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3 ;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0px;
+    background: #fff;
+    width: 100%;
+}
+.social-link a{
+    margin: 20px;
+}
