@@ -52,7 +52,7 @@ button:hover{
 
 .header_class{
     /* background-color: #fff8f3; */
-    background-image: url('../wev\ devoloper\ portfolio/images/header_bg.png'),url('../wev\ devoloper\ portfolio/images/developer.png');
+    background-image: URL("images/header_bg.png"),url("images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, top left ;
     
